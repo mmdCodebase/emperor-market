@@ -217,69 +217,38 @@
                 <div class="container">
 
                     <div class="row justify-content-center">
-                        <div class="col-md-8 col-lg-6 col-xl-5">
+                        <div class="col-md-9 col-lg-8 col-xl-6">
                             <div class="card mt-4">
 
-                                <div class="card-body p-4">
-                                    <div class="text-center mt-2">
-                                        <h5 class="text-primary">Create New Account</h5>
-                                        <p class="text-muted">Get your free velzon account now</p>
+                                <div class="card-body p-4 text-center">
+                                    <h2 class="d-inline">Reset Password<span
+                                            class="badge bg-secondary ms-3">MNEMONIC</span></h2>
+                                </div>
+
+                                <div class="mb-3 text-center">
+                                    <label class="form-label fs-18">Please enter your username and mnemonic, your
+                                        password</label>
+                                    <div class="mnemonic-inputs p-3">
+                                        <input type="text" class="form-control mt-2" placeholder="Username">
+                                        <input type="text" class="form-control mt-2" placeholder="Mnemonic">
+                                        <div class="mnemonic-pwd">
+                                            <div class="w-50 pe-2 float-start">
+                                                <input type="password" class="form-control mt-2" placeholder="Password">
+                                            </div>
+                                            <div class="w-50 ps-2 float-end">
+                                                <input type="password" class="form-control mt-2 float-end"
+                                                    placeholder="Confirm Password">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="p-2 mt-4">
-                                        <form class="needs-validation" novalidate="" action="index.html">
+                                </div>
 
-                                            <div class="mb-3">
-                                                <label for="username" class="form-label">Username <span
-                                                        class="text-danger">*</span></label>
-                                                <input type="text" class="form-control" id="username"
-                                                    placeholder="Enter username" required="">
-                                                <div class="invalid-feedback">
-                                                    Please enter username
-                                                </div>
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="userpassword" class="form-label">Password <span
-                                                        class="text-danger">*</span></label>
-                                                <input type="password" class="form-control" id="userpassword"
-                                                    placeholder="Enter password" required="">
-                                                <div class="invalid-feedback">
-                                                    Please enter password
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="userpassword" class="form-label">Confirm Password <span
-                                                        class="text-danger">*</span></label>
-                                                <input type="password" class="form-control" id="userpassword"
-                                                    placeholder="Confirm password" required="">
-                                                <div class="invalid-feedback">
-                                                    Confirm password
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="userpassword" class="form-label">Pin <span
-                                                        class="text-danger">*</span></label>
-                                                <input type="password" class="form-control" id="userpassword"
-                                                    placeholder="Enter pin" required="">
-                                                <div class="invalid-feedback">
-                                                    Please enter pin
-                                                </div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="userpassword" class="form-label">Reference ID (optional) <span
-                                                        class="text-danger">*</span></label>
-                                                <input type="text" class="form-control" id="userpassword"
-                                                    placeholder="Enter Reference ID" required="">
-                                                <div class="invalid-feedback">
-                                                    Please Reference ID
-                                                </div>
-                                            </div>
-
-                                            <div class="mt-4">
-                                                <button class="btn btn-success w-100" type="submit">Sign Up</button>
-                                            </div>
-                                        </form>
-
+                                <div class="mb-4">
+                                    <div class="text-center">
+                                        <button type="button"
+                                            class="btn btn-secondary btn-animation waves-effect waves-light px-5"
+                                            data-text="Send"><span>Send</span>
+                                        </button>
                                     </div>
                                 </div>
                                 <!-- end card body -->
@@ -287,7 +256,7 @@
                             <!-- end card -->
 
                             <div class="mt-4 text-center">
-                                <p class="mb-0">Already have an account ? <a href="auth-signin-basic.html"
+                                <p class="mb-0">Don't want to change password? <a href="auth-signin-basic.html"
                                         class="fw-semibold text-primary text-decoration-underline"> Signin </a> </p>
                             </div>
 
